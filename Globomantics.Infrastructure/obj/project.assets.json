@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Globomantics.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Globomantics.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Globomantics.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Globomantics.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Globomantics.Domain/Globomantics.Domain.csproj",
+      "msbuildProject": "../Globomantics.Domain/Globomantics.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Globomantics.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\coxmu\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\coxmu\\OneDrive\\Desktop\\Assignment\\Start_Here\\Globomantics.Domain\\Globomantics.Domain.csproj": {
+              "projectPath": "C:\\Users\\coxmu\\OneDrive\\Desktop\\Assignment\\Start_Here\\Globomantics.Domain\\Globomantics.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

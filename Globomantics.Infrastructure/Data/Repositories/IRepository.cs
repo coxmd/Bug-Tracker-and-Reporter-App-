@@ -1,4 +1,4 @@
-﻿namespace Globomantics.Infrastructure
+﻿namespace Globomantics.Infrastructure.Data.Repositories
 {
     public interface IRepository<T>
     {
