@@ -64,7 +64,7 @@
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Right">
                 <TextBlock Padding="5" FontSize="18">
-                    Real-world C# Applications @ <Hyperlink NavigateUri="https://www.pluralsight.com/authors/filip-ekberg" RequestNavigate="Hyperlink_OnRequestNavigate">Pluralsight</Hyperlink>
+                    Bug Tracker and Reporting App @Cox Musyoki
                 </TextBlock>
             </StatusBarItem>
         </StatusBar>
