@@ -139,6 +139,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Globomantics.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Globomantics.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Globomantics.Domain.dll": {}
+        }
       }
     }
   },
@@ -367,11 +377,17 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Globomantics.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Globomantics.Domain/Globomantics.Domain.csproj",
+      "msbuildProject": "../Globomantics.Domain/Globomantics.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "CommunityToolkit.Mvvm >= 8.2.0",
+      "Globomantics.Domain >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Newtonsoft.Json >= 13.0.3"
@@ -403,7 +419,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\coxmu\\OneDrive\\Desktop\\Assignment\\Start_Here\\Globomantics.Domain\\Globomantics.Domain.csproj": {
+              "projectPath": "C:\\Users\\coxmu\\OneDrive\\Desktop\\Assignment\\Start_Here\\Globomantics.Domain\\Globomantics.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
