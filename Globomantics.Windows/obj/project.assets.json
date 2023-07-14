@@ -149,6 +149,19 @@
         "runtime": {
           "bin/placeholder/Globomantics.Domain.dll": {}
         }
+      },
+      "Globomantics.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Globomantics.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Globomantics.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Globomantics.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -382,12 +395,18 @@
       "type": "project",
       "path": "../Globomantics.Domain/Globomantics.Domain.csproj",
       "msbuildProject": "../Globomantics.Domain/Globomantics.Domain.csproj"
+    },
+    "Globomantics.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Globomantics.Infrastructure/Globomantics.Infrastructure.csproj",
+      "msbuildProject": "../Globomantics.Infrastructure/Globomantics.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "CommunityToolkit.Mvvm >= 8.2.0",
       "Globomantics.Domain >= 1.0.0",
+      "Globomantics.Infrastructure >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Newtonsoft.Json >= 13.0.3"
@@ -422,6 +441,9 @@
           "projectReferences": {
             "C:\\Users\\coxmu\\OneDrive\\Desktop\\Assignment\\Start_Here\\Globomantics.Domain\\Globomantics.Domain.csproj": {
               "projectPath": "C:\\Users\\coxmu\\OneDrive\\Desktop\\Assignment\\Start_Here\\Globomantics.Domain\\Globomantics.Domain.csproj"
+            },
+            "C:\\Users\\coxmu\\OneDrive\\Desktop\\Assignment\\Start_Here\\Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\coxmu\\OneDrive\\Desktop\\Assignment\\Start_Here\\Globomantics.Infrastructure\\Globomantics.Infrastructure.csproj"
             }
           }
         }
